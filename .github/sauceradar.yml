@@ -1,5 +1,6 @@
 - files: .*\.html
   rule: \(click\)="([^()]*).*"
+  threshold: 5
   branches: 
   - develop
   comment: |-
@@ -15,3 +16,8 @@
       ...
     }
     ```
+  
+- files: .*
+  rule: .*
+  branches: .*
+  comment: SPAM!!!!!

@@ -1,5 +1,6 @@
 - files: .*\.html
   rule: \(click\)="([^()]*).*"
+  rule: \(click\)="([^()]*).*"
   threshold: 5
   branches: 
   - develop

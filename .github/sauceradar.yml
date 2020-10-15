@@ -18,6 +18,7 @@
     ```
   
 - files: .*
+  threshold: 2
   rule: .*
   branches: .*
   comment: SPAM!!!!!
